@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="여기를 눌러 링크를 확인하세요.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="동아오츠카">
+    <meta property="og:url" content="http://kyhaey.dothome.co.kr/donga/">
+    <meta property="og:image" content="http://kyhaey.dothome.co.kr/donga/images/donga_og.png">
+    <meta property="og:description" content="여기를 눌러 링크를 확인하세요.">
+    <title>동아오츠카</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favi.ico">
+    <link rel="apple-touch-icon" href="images/subway_og.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/layout.css?v=<?php echo time(); ?>">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/ui_common.js?v=<?php echo time(); ?>"></script>
+</head>
+<body>
+  <div id="skip_navi">
+    <a href="#container">본문바로가기</a>
+  </div>
+  <div id="wrap">
+    <header id="header">
+      <a class="btn_open" href="#">메뉴열기</a>
+      <h1 class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="동아오츠카"></a>
+      </h1>      
+      <a class="btn_close" href="#">메뉴닫기</a>
+      <aside class="gnb_wrap">
+        <ul class="gnb_top">
+          <li class="login">
+            <a href="#">로그인</a>
+          </li>
+          <li class="shop">
+            <a href="https://shop.donga-otsuka.co.kr/" target="_blank">쇼핑몰</a>
+          </li>
+        </ul>
+        <ul class="gnb">
+          <li>
+            <a href="#">회사소개</a>
+            <ul class="depth02">
+              <li><a href="#">동아오츠카 소개</a></li>
+              <li><a href="#">인사말</a></li>
+              <li><a href="#">동아오츠카 연혁</a></li>
+              <li><a href="#">제품이념</a></li>
+              <li><a href="#">vision</a></li>
+              <li><a href="#">기업활동</a></li>
+              <li><a href="#">찾아오시는길</a></li>
+              <li><a href="#">지점안내</a></li>
+              <li><a href="#">comliance</a></li>
+              <li><a href="#">채용공고</a></li>
+              <li><a href="#">지원조회 및 수정</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">제품소개</a>
+            <ul class="depth02">
+              <li><a href="brand.html">포카리스웨트</a></li>
+              <li><a href="#">이온워터</a></li>
+              <li><a href="#">오로나민C</a></li>
+              <li><a href="#">데미소다</a></li>
+              <li><a href="#">오란씨</a></li>
+              <li><a href="#">나랑드사이다</a></li>
+              <li><a href="#">오라떼</a></li>
+              <li><a href="#">블랙빈티</a></li>
+              <li><a href="#">컨피던스</a></li>
+              <li><a href="#">데자와</a></li>
+              <li><a href="#">이카리아</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">홍보센터</a>
+            <ul class="depth02">
+              <li><a href="#">Health Story</a></li>
+              <li><a href="#">Blue Story</a></li>
+              <li><a href="#">New TV CF</a></li>
+              <li><a href="#">인쇄광고</a></li>
+              <li><a href="#">블루포인트</a></li>
+              <li><a href="#">진행중 이벤트</a></li>
+              <li><a href="#">종료된 이벤트</a></li>
+              <li><a href="#">NEWS</a></li>
+              <li><a href="#">SNS</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">고객센터</a>
+            <ul class="depth02">
+              <li><a href="faq.html">고객 상담 전화</a></li>
+              <li><a href="#">고객의 소리</a></li>
+              <li><a href="#">고객 상담 절차</a></li>
+              <li><a href="#">피해보상 기준</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="gnb_bottom">
+          <li>
+            <a href="https://www.donga-otsuka.co.kr/etc/use_info.asp" target="_blank">이용약관</a>
+          </li>
+          <li>
+            <a href="https://www.donga-otsuka.co.kr/etc/protection_policy.asp" target="_blank">개인정보취급방침</a>
+          </li>
+        </ul>
+      </aside>
+      <span class="dimmed"></span>
+      <a class="btn_search" href="#">찾기</a>
+    </header>
+    <div id="container" class="sub_login">
+      <div class="sub_top">
+        <h2>LOGIN</h2>
+        <a class="btn_back" href="index.html">홈</a>
+      </div>
+      <div class="contents">
+        <div class="login_area">
+          <form>
+            <fieldset>
+              <legend>입력</legend>
+              <div class="input_set">
+                <input type="text" maxlength="255" title="아이디 입력" placeholder="아이디를 입력하세요" autocomplete="off">
+              </div>
+              <div class="input_set">
+                <input type="password" maxlength="255" title="비밀번호 입력" placeholder="비밀번호를 입력하세요" autocomplete="off">
+              </div>
+            </fieldset>
+            <div class="check">
+              <div class="checkbox_wrap">
+                <input class="save_wrap" id="save" type="checkbox">
+                <label for="save">아이디 저장</label>
+              </div>
+            </div>
+            <button class="btn_login" type="submit">로그인</button>
+          </form>
+          <div class="signin">
+            <ul class="signin_link">
+              <li><a href="#">아이디 찾기</a></li>
+              <li><a href="#">비밀번호 찾기</a></li>
+              <li><a href="#">회원가입</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="address_wrap">
+        <p class="address">
+          서울특별시 동대문구 천호대로 64  <span class="bar"></span>Tel 080-999-7644</p>
+        <p class="copyright">Copyright © donga-Otsuka co.</p>
+      </div>
+      <div class="family_wrap">
+        <button class="btn_family" type="button">Family site</button>
+        <ul class="family">
+          <li class="active"><a href="#">Family site</a></li>
+          <li><a href="http://www.donga.co.kr/Main.da" target="_blank">동아쏘시오홀딩스</a></li>
+          <li><a href="https://www.otsuka.co.jp/en/" target="_blank">Otsuka</a></li>
+          <li><a href="https://shop.donga-otsuka.co.kr/" target="_blank">동아오츠카샵</a></li>
+          <li><a href="https://audit.donga.co.kr/" target="_blank">사이버감사실</a></li>
+          <li><a href="http://dao.donga-otsuka.co.kr/member_login_form.asp">인트라넷</a></li>
+        </ul>
+      </div>
+      <div class="sns_wrap">
+        <ul class="sns">
+          <li>
+            <a href="https://www.facebook.com/Dongaotsuka" target="_blank"><img src="images/1.png" alt="face book"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/donga_otsuka/" target="_blank"><img src="images/2.png" alt="instagram"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCseJ2-h0ulRpwJsit2awJ2A" target="_blank"><img src="images/3.png" alt="youtube"></a>     
+          </li>
+          <li>
+            <a href="https://blog.naver.com/donga30260" target="_blank"><img src="images/4.png" alt="blog"></a> 
+          </li>
+        </ul>
+      </div> 
+    </footer> 
+  </div>
+</body>
+</html>
